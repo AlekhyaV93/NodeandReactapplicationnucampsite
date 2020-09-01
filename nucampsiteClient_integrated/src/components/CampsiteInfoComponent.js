@@ -16,7 +16,7 @@ function RenderCampsite({campsite, favorite, postFavorite}) {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
                 <Card>
-                    <CardImg top src={baseUrl + campsite.image} alt={campsite.name} />
+                    <CardImg top src={baseUrl + 'api/' + campsite.image} alt={campsite.name} />
                         <CardImgOverlay>
                             <Button outline color="primary" onClick={() => favorite ? console.log('Already favorite') : postFavorite(campsite._id)}>
                                 {favorite ?

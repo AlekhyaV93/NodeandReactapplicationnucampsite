@@ -8,7 +8,7 @@ function RenderDirectoryItem({ campsite, deleteFavorite }) {
     return (
         <Media tag="li">
             <Media left middle>
-                <Media object src={baseUrl + campsite.image} alt={campsite.name} />
+                <Media object src={baseUrl + 'api/' + campsite.image} alt={campsite.name} />
             </Media>
             <Media body className="ml-5">
                 <Media heading>{campsite.name}</Media>

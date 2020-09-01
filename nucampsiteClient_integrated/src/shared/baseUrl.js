@@ -1,2 +1,2 @@
 //export const baseUrl = 'https://localhost:3443/';
-export const baseUrl = 'https://18.223.185.30:3443/'
+export const baseUrl = 'http://13.59.26.108:80/'
